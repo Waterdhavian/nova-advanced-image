@@ -1,5 +1,5 @@
 {
-    "name": "marshmallow/nova-advanced-image",
+    "name": "waterdhavian/nova-advanced-image",
     "description": "An advanced image field for Nova with crop and resize.",
     "keywords": [
         "laravel",
@@ -16,12 +16,12 @@
     "license": "MIT",
     "require": {
         "php": "^8.0",
-        "intervention/image": "^2.5",
         "laravel/nova": "^4.0|^5.0"
+        "intervention/image": "^3.6",
     },
     "autoload": {
         "psr-4": {
-            "Marshmallow\\AdvancedImage\\": "src/"
+            "Waterdhavian\\AdvancedImage\\": "src/"
         }
     },
     "repositories": [
@@ -33,7 +33,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Marshmallow\\AdvancedImage\\FieldServiceProvider"
+                "Waterdhavian\\AdvancedImage\\FieldServiceProvider"
             ]
         }
     },

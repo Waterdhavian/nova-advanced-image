@@ -1,6 +1,6 @@
 <?php
 
-namespace Marshmallow\NovaAdvancedImageField;
+namespace Waterdhavian\NovaAdvancedImageField;
 
 use Laravel\Nova\Contracts\Cover;
 

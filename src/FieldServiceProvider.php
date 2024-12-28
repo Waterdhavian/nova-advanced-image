@@ -1,6 +1,6 @@
 <?php
 
-namespace Marshmallow\AdvancedImage;
+namespace Waterdhavian\AdvancedImage;
 
 use Illuminate\Support\ServiceProvider;
 use Laravel\Nova\Events\ServingNova;

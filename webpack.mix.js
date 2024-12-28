@@ -6,4 +6,4 @@ require("./mix");
 mix.setPublicPath("dist")
     .js("resources/js/field.js", "dist/js/nova-advanced-image.js")
     .vue({ version: 3 })
-    .nova("marshmallow/nova-advanced-image");
+    .nova("waterdhavian/nova-advanced-image");

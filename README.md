@@ -16,7 +16,7 @@ See [Intervention requirements](http://image.intervention.io/getting_started/ins
 Install the package into a Laravel application with Nova using Composer:
 
 ```bash
-composer require marshmallow/nova-advanced-image
+composer require waterdhavian/nova-advanced-image
 ```
 
 If you want to use Imagick as the default image processing library, follow the [Intervention documentation for Laravel](http://image.intervention.io/getting_started/installation#laravel). This will provide you with a new configuration file where you can specify the driver you want.
@@ -30,7 +30,7 @@ If you want to use Imagick as the default image processing library, follow the [
 namespace App\Nova;
 
 // ...
-use Marshmallow\AdvancedImage\AdvancedImage;
+use Waterdhavian\AdvancedImage\AdvancedImage;
 
 class Post extends Resource
 {
